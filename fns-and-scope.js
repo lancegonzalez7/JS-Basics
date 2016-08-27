@@ -25,7 +25,7 @@ function getName() {
 //Create a function called welcome that uses your getName function you created in the previous problem to get the users name,
 //then alerts "Welcome, " plus whatever the users name is.
 function welcome() {
-  alert("Welcome " + getName());
+  alert("Welcome, " + getName());
 }
 
 //////////////////PROBLEM 4////////////////////
@@ -35,8 +35,8 @@ function welcome() {
 
 //What is the difference between arguments and parameters?
 
-arguments are the actual value being passed to the function.
-parameters are just placeholders for actual arguments. //Answer Here
+//arguments are the actual value being passed to the function.
+//parameters are just placeholders for actual arguments. //Answer Here
 
 
 //////////////////PROBLEM 5////////////////////
@@ -46,11 +46,11 @@ parameters are just placeholders for actual arguments. //Answer Here
 //What are all the falsy values in JavaScript and how do you check if something is falsy?
 
 
-NaN
-false
-0
-' '
-null  //Answer Here
+// NaN
+// false
+// 0
+// ' '
+// null  //Answer Here
 
 
 
@@ -67,11 +67,11 @@ function myName() {
 
 
 //Now save the function definition of myName into a new variable called newMyName
-var newMyName = myName();
+var newMyName = myName;
   //Code Here
 
 //Now alert the result of invoking newMyName
-alert(newMyName());
+alert(newMyName);
 
 
 //////////////////PROBLEM 7////////////////////
