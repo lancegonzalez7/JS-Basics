@@ -35,7 +35,8 @@ function welcome() {
 
 //What is the difference between arguments and parameters?
 
-nothing  //Answer Here
+arguments are the actual value being passed to the function.
+parameters are just placeholders for actual arguments. //Answer Here
 
 
 //////////////////PROBLEM 5////////////////////
@@ -78,11 +79,15 @@ alert(newMyName());
 
 
 //Create a function called outerFn which returns an anonymous function which returns your name.
-
+function outerFn(){
+  return function(){
+    return 'Lance'
+  }
+}
   //Code Here
-
 //Now save the result of invoking outerFn into a variable called innerFn.
 
-  //Code Here
+var innerFn = outerFn();//Code Here
 
 //Now invoke innerFn.
+innerFn();
